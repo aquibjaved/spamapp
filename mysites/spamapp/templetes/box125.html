@@ -1,0 +1,13 @@
+{% extends "header.html" %}
+{% block content %}
+
+<form method=POST action="/spamapp/process/">
+<textarea name="text" cols="25" rows="5">
+Add multiple lines of text here and watch the scrollbars grow...
+</textarea>
+
+
+<input type="submit" value="Submit" style="background-color:yellowgreen;color:white;padding:5px;font-size:18px;border:none;padding:8px;">
+</form>
+
+{% endblock %}
